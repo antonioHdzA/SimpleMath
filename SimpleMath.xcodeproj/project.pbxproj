@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		B1E785BD2964F6B300E9655E /* SimpleMath.docc in Sources */ = {isa = PBXBuildFile; fileRef = B1E785BC2964F6B300E9655E /* SimpleMath.docc */; };
 		B1E785BE2964F6B300E9655E /* SimpleMath.h in Headers */ = {isa = PBXBuildFile; fileRef = B1E785BB2964F6B300E9655E /* SimpleMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1E785C52964F71E00E9655E /* SimpleAlgorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E785C42964F71E00E9655E /* SimpleAlgorithms.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B1E785B82964F6B300E9655E /* SimpleMath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleMath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1E785BB2964F6B300E9655E /* SimpleMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleMath.h; sourceTree = "<group>"; };
 		B1E785BC2964F6B300E9655E /* SimpleMath.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SimpleMath.docc; sourceTree = "<group>"; };
+		B1E785C42964F71E00E9655E /* SimpleAlgorithms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAlgorithms.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 		B1E785AE2964F6B300E9655E = {
 			isa = PBXGroup;
 			children = (
+				B1E785C42964F71E00E9655E /* SimpleAlgorithms.swift */,
 				B1E785BA2964F6B300E9655E /* SimpleMath */,
 				B1E785B92964F6B300E9655E /* Products */,
 			);
@@ -133,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1E785BD2964F6B300E9655E /* SimpleMath.docc in Sources */,
+				B1E785C52964F71E00E9655E /* SimpleAlgorithms.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
